@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Playwright artifacts
+test-results/
+playwright-report/
+*.zip
+videos/
+*.png
+
+# Auth state (VERY IMPORTANT - contains cookies)
+auth/state.json
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
