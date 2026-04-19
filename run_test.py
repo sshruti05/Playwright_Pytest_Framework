@@ -54,7 +54,6 @@ def main():
         page      = browser.new_page()
         login     = LoginPage(page)
         dashboard = DashboardPage(page)   # same page object, different view
-
         run_scenario_a(login, dashboard)
         run_scenario_b(login)
         run_scenario_c(login)
